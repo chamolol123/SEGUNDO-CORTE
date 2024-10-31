@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-ApiRestArticuloApplication<api_rest_articulo>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "co.edu.unicauca.api_rest_articulo.ApiRestArticuloApplication",
+      "projectName": "api_rest_articulo",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    },
+    {
+      "type": "java",
+      "name": "Spring Boot-ApiRestConferenciaApplication<api_rest_conferencia>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "co.edu.unicauca.api_rest_conferencia.ApiRestConferenciaApplication",
+      "projectName": "api_rest_conferencia",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
